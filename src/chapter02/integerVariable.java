@@ -9,7 +9,7 @@ public class integerVariable {
 		// byte는 8bit로 구성되어있다.
 		// bit는 0, 1 2진수값을 저장하도록 설계되어 있다.
 		
-		short sva1 = 128;
+		short sva1 = 10;
 		byte bval = 20;
 		
 		System.out.println(sva1 + bval);
