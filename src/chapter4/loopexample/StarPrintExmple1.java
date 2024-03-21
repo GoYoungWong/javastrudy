@@ -13,7 +13,7 @@ public class StarPrintExmple1 {
 		}
 		System.out.println("==================================");
 		// 별찍기 : 삼각형
-		for(int i=1; i<5; i++ ) {
+		for(int i=1; i<5; i++ ) {      
 			for(int j=0; j<i; j++ ) {
 				System.out.print("*");
 			

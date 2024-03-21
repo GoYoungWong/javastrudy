@@ -29,7 +29,7 @@ public class OperationEx3 {
 	
 		System.out.println("=======================================");
 	
-		value = (num1 = num1 + 10) > 10 || (i = i + 2) < 10;
+		value = (num1 = num1 + 10) < 10 || (i = i + 2) < 10;
 		System.out.println(value); //true
 		System.out.println(num1); // 30
 		System.out.println(i); // 2
