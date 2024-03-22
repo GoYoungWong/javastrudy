@@ -4,7 +4,7 @@ public class PersonTest {
 
 	public static void main(String[] args) {
 		
-//		Person p1 = new Person(); // 생성자
+		// Person p1 = new Person(); // 생성자
 		
 		// 매개변수가 있는 생산자가 있기떄문에 이거 만들어야함
 		Person p1 = new Person("홍길동");

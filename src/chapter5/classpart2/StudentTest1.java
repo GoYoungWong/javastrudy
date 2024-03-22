@@ -4,12 +4,11 @@ public class StudentTest1 {
 
 	public static void main(String[] args) {
 		
-		
 		/*
 		- 메모리구조 : https://lucas-owner.tistory.com/38
 		- 운영체제로부터 JVM 메모리 할당을 위임받아서 메모리를 여러개의 영역으로 나누어 관리한다.
 		- 메모리영역 : 여러개로 나누어진다.
-		1) Stack Area 2) Heap Area 3) Method Area(Static Area) 암기★
+		1) Stack Area  2) Heap Area  3) Method Area(Static Area) 암기★
 		
 		 - Stack Area :
 		 메서드 안에 변수및매개변수를 선언하면, 메서드가 실행이 될떄 변수또는 매개변수 기억장소가 생성.
