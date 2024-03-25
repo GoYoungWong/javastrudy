@@ -12,7 +12,7 @@ package chapter5.hiding;
   default 필드는 동일한 패키지 일경우는 접근이되고, 다른 패키지에서는 접근이 안된다.
 */
 public class MyDate {
-	public int day;              // 아무것도 없으면(접근자 생략시) default이며 같은 패키지 내부에서만 접근가능
-	int month;     // 외부 클래스 어디에서나 접근가능
+	public int day;   // 외부 클래스 어디에서나 접근가능           
+	int month;     // 아무것도 없으면(접근자 생략시) default이며 같은 패키지 내부에서만 접근가능
 	private int year;     // 같은 클래스 내부에서만 접근가능
 }
