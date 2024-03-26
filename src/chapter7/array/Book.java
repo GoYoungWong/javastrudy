@@ -24,11 +24,11 @@ public class Book {
 		this.bookName = bookName;
 	}
 	
-	public String getBookauthor() {
+	public String getauthor() {
 		return author;
 	}
 	
-	public void setBookauthor(String author) {
+	public void setauthor(String author) {
 		this.author = author;
 	}
 	
