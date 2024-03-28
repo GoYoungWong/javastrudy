@@ -36,6 +36,7 @@ public class ShapeTest {
 		// Shape shape2 = new Rectangle();
 //		Circle c2 = (Circle) shape2;
 		Rectangle r1 = (Rectangle)shape2;
+		r1.Rectangle();
 	}
 
 }

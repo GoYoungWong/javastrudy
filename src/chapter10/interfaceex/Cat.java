@@ -7,13 +7,13 @@ public class Cat implements Animal {
 	// 부모인터페이스의 추상메서드를 구현한다.(구현메서드). 재정의메서드라고 부를수도 있다.
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
+		System.out.println("고양이가 달린다.");
 		
 	}
 
 	@Override
 	public void cry() {
-		// TODO Auto-generated method stub
+		System.out.println("고양이가 야옹야옹 울부짖다.");
 		
 	}
 
