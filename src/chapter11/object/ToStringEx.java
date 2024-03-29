@@ -14,6 +14,7 @@ class Book /*extends Object*/{
 	}
 	
 	// Object ToString
+	// 객체가 가지고 있는 정보나 값들을 문자열로 만들어 리턴하는 메소드 입니다.
 	// 재정의 : 필드의 정보를 확인하는 목적
 	// 사용 할때 : 위에 Source -> ToString  또는 Overriding/implement Method 를 눌러 사용
 	@Override

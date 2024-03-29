@@ -20,8 +20,8 @@ class Student /* extends Object */{
 	public int hashCode() {
 		System.out.println("hashCode()");
 		// 주소값 
-		return super.hashCode(); 
-		//return studentid;  // 손흥민의 등넘버값 7
+//		return super.hashCode(); 
+		return studentid;  // 손흥민의 등넘버값 7
 	}
 	
 	// st1.equals(st3)
@@ -84,6 +84,7 @@ public class EqualsTest {
 		}
 		
 		// 정리
+		// 객체가 힙영역에 가지고 있는 정보(데이터)가 동일한 데이터라고 간주를 하고 싶다면
 		// 객체비교시 내부적으로 Object클래스의 equals(), hashCode()메서드가 동작한다.(주소값으로 비교)
 		// 객체가 참조하고 있는 힙역역의 데이터로 비교하도록 equals(), hashCode()메서드를 재정의.
 		
@@ -93,9 +94,9 @@ public class EqualsTest {
 		System.out.println(st3);
 		
 		// 해쉬코드값 : 힙영역의 기억장소를 가리킬떄 사용하는 코드값.
-		System.out.println(st1.hashCode()); // 1694819250
-		System.out.println(st2.hashCode()); // 1694819250
-		System.out.println(st3.hashCode()); // 1365202186
+		System.out.println(st1.hashCode()); // 1694819250 -> 7
+		System.out.println(st2.hashCode()); // 1694819250 -> 7
+		System.out.println(st3.hashCode()); // 1365202186 -> 7
 		
 	}
 
