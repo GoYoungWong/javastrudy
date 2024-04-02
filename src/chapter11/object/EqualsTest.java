@@ -53,7 +53,10 @@ public class EqualsTest {
 		
 		Student st3 = new Student(7, "손흥민");
 		
-		// st1객체의 주소와 st3객체의 주소는 다르다.
+		// st1객체의 주소와 st3객체의 주소는 다르다. 고로 다른 객체이다.
+		// 객체가 동일한 지 비교될때 내부적으로 Object클래스의 equals()와 hashCode()가 사용된다.
+		// 7, "손흥민" 데이터가 같다면 동일한 객체로 인식되게 하자.
+		// 그럴러면, Object클래스의 equals()와 hashCode() 재정의를 해야 동일한 객체로 결과를 만들수 있다.
 		
 		// 주소비교
 		if(st1 == st2) {
