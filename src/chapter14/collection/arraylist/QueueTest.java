@@ -2,7 +2,7 @@ package chapter14.collection.arraylist;
 
 import java.util.ArrayList;
 
-// 자료구조 : 뮤(Queue)를 ArrayList클래스로 구현한 예제
+// 자료구조 : 큐(Queue)를 ArrayList클래스로 구현한 예제
 // 큐 : First Input First Output(FIFO)
 class MyQueue { 
 	private ArrayList<String> arrayQueue = new ArrayList<String>();
