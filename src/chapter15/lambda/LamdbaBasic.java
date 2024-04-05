@@ -1,4 +1,4 @@
-package chapter15.lambda;
+package chapter15.Lambda;
 
 public class LamdbaBasic {
 

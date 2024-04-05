@@ -1,4 +1,4 @@
-package chapter15.lambda;
+package chapter15.Lambda;
 
 // 인터페이스를 이용한 구현클래스
 class Test implements MyNumber {
@@ -27,7 +27,7 @@ public class TestMyNumber {
 		// 함수형인터페이스의 추상메서드를 람다식문법으로 표현
 		/*
 		 인터페이스 변수 = 추상메서드를 구현한 람다식문법코딩;
-		 */
+		 */     //(int x, int y) // {return (x >= y) ? x: y;};
 		MyNumber max = (x, y) -> (x >= y) ? x: y;  // (x >= y) 값이 trur면 x, false면 y 
 		System.out.println(max.getMax(10, 20));
 	}

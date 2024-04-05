@@ -1,4 +1,4 @@
-package chapter15.lambda;
+package chapter15.Lambda;
 
 // 함수형 인터페이스 : 추상메서드 단 1개를 가지고 있는 인터페이스
 

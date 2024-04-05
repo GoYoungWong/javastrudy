@@ -12,6 +12,7 @@ public class MemberHashSet {
 	// 기억장소를 인덱스로 관리하는 특징(순서가 있다.), 데이터중복허용
 	private HashSet<Member2> hashSet;
 	
+	
 	public MemberHashSet() {
 		hashSet = new HashSet<Member2>();
 	}
