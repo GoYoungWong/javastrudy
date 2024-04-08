@@ -6,6 +6,7 @@ import java.util.stream.Stream;
 
 // 스트림 예제 : 컬렉션에 스트림기능을 사용.
 // 컬렉션 : 데이터가 추가 될때마다 기억장소가 확장되서 집어넣는다.
+// 추가, 읽기, 제거 메서드
 public class ArrayListStreamTest {
 
 	public static void main(String[] args) {
@@ -18,6 +19,9 @@ public class ArrayListStreamTest {
 		
 		//일반for문 ArrayList클래스는 컬렉션형태의 기억장소를 0,1 인덱스형태로 관리.
 		for(int i=0; i < sList.size(); i++) {
+			// 정렬작업
+			// if문으로 작업
+			// for문으로 대소비교시, 작업하면 작업량이 많아짐
 			System.out.println(sList.get(i));
 		}
 		System.out.println();
@@ -36,6 +40,8 @@ public class ArrayListStreamTest {
 		// Consumer : 매개변수를 사용만하고 리턴을 하지 않는 함수형태로 이용
 		// https://inpa.tistory.com/entry/%E2%98%95-%ED%95%A8%EC%88%98%ED%98%95-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-API
 		Stream<String> stream = sList.stream(); // 컬렉션객체.stream()
+		
+		// for문과 동일
 		stream.forEach(s -> System.out.println(s + " "));
 		
 		System.out.println();
