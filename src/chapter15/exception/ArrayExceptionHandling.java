@@ -18,7 +18,7 @@ public class ArrayExceptionHandling {
 	
 	// 예외처리 문법	
 	try {
-		// 예외 발생되는 코드	
+		// 예외 발생되는 코드	    조건식을 i<5 로 사용하면 예외가 발생되지 않는다, catch 구문이 진행되지 않는다.
 		for(int i=0; i <= 5; i++) {
 			System.out.println(arr[i]); // arr[5] 기억장소가 존재안하므로 예외가 발생. 오류데이터
 		}
